@@ -9,7 +9,7 @@ This repository contains the code, data processing pipeline, and demo applicatio
 ## 🔑 Key Features
 
 * **Multi-Modal Pipeline**: Combines text (Whisper + FinBERT) and audio (Wav2Vec2) embeddings.
-* **Minute-Level Predictions**: Detects micro-reactions to financial statements in real time.
+* **Minute-Level Predictions**: Detects micro-reactions to financial statements during the events.
 * **Streamlit Demo**: Upload financial audio and view synchronized stock movement predictions.
 * **End-to-End Training**: Includes data preparation, feature extraction, classifier training, and deployment.
 
