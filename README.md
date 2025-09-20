@@ -1,7 +1,3 @@
-Here’s a more detailed and polished version of your README that connects closely with your paper while still being practical for GitHub users:
-
-\----------------------------UPDATED README----------------------------
-
 # FinEvent-MinuteLevel-Prediction
 
 **During-Event Multi-Modal Financial Audio Analysis for Short-Term Stock Price Movement Prediction**
@@ -20,21 +16,6 @@ This repository contains the code, data processing pipeline, and demo applicatio
 ---
 
 ## ⚙️ Installation
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/dongim04/FinEvent-MinuteLevel-Prediction.git
-cd FinEvent-MinuteLevel-Prediction
-```
-
-### 2. Set Up Environment
-
-We recommend Python 3.10+ and a GPU-enabled environment. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 Dependencies include:
 
@@ -98,46 +79,6 @@ The Streamlit app workflow:
 
 ![Streamlit Demo](./assets/streamlit_interface.png)
 
----
-
-## 📈 Results
-
-* Validation Accuracy: **95%**
-* Validation Loss: Decreased from **0.63 → 0.12**
-* Captures both **semantic content** (what is said) and **paralinguistic cues** (how it is said).
-
-For detailed methodology, see **Figure 1 (Framework Overview)** in our paper.
-
----
-
-## 🔮 Future Work
-
-* Incorporating **visual cues** (speaker facial expressions, gestures).
-* Integration with **market microstructure data**.
-* Deployment for **live-streamed financial events**.
-* Exploring **attention-based fusion models**.
-
----
-
-## ✍️ Citation
-
-If you use this code, please cite our paper:
-
-```bibtex
-@inproceedings{lee2026fin,
-  title={During-Event Multi-Modal Financial Audio Analysis for Short-Term Stock Price Movement Prediction},
-  author={Lee, Dongim and Lee, Jaehoon and Lim, Taeyoon and Kim, Minjae and Yoo, Sungdong and Lee, Soonyoung and Ahn, Wonbin},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2026}
-}
-```
-
----
-
 ## 📧 Contact
 
 For questions, please reach out to **[dongimlee@uchicago.edu](mailto:dongimlee@uchicago.edu)** or open an issue on this repository.
-
----
-
-👉 Would you like me to also draft a **`requirements.txt`** (with pinned versions for Whisper, FinBERT, Wav2Vec2, and Streamlit) so others can easily reproduce your pipeline?
