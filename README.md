@@ -2,7 +2,7 @@
 
 **During-Event Multi-Modal Financial Audio Analysis for Short-Term Stock Price Movement Prediction**
 
-This repository contains the code, data processing pipeline, and demo application for our research on predicting minute-level stock price movements during financial events. Unlike prior work that relies on post-event transcripts, this project fuses **textual embeddings** and **audio prosodic features** to make **during-event, real-time predictions**.
+This repository contains the code, data processing pipeline, and demo application for our research on predicting minute-level stock price movements during financial events. Unlike prior work that relies on post-event transcripts, this project fuses **textual embeddings** and **audio prosodic features** to make **during-event predictions**.
 
 ---
 
@@ -77,7 +77,7 @@ The Streamlit app workflow:
 3. Sentence-level predictions (up / down / neutral).
 4. Interactive visualization with stock price charts.
 
-![Streamlit Demo](./assets/streamlit_interface.png)
+![Streamlit Demo](./streamlit_interface.png)
 
 ## 📧 Contact
 
